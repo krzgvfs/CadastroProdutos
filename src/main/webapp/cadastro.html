@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Produtos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Cadastro de Produtos</div>
+        <hr>
+        <form method="POST" action="ControleProduto">
+            <table>
+                <tr><td>Código</td><td><input type="number" name="codigo"></td></tr>
+                <tr><td>Descrição</td><td><input type="text" name="descricao"></td></tr>
+                <tr><td>Quantidade</td><td><input type="number" name="quantidade"></td></tr>
+                <tr><td>Valor unitário</td><td><input type="number" name="valorUnitario"></td></tr>
+                <tr><td>Data última compra:</td><td><input type="date" name="dataDeUltimaCompra"></td></tr>
+                <tr><td colspan="2"> <input type="submit"></td></tr>
+            </table>
+         </form>
+        <hr>
+    </body>
+</html>
